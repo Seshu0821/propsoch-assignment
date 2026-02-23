@@ -6,20 +6,14 @@
 
 #### 💻 Desktop Scores
 
-| Category        | Score |
-|----------------|--------|
-| Performance     | 61     |
-| Accessibility   | 77     |
-| Best Practices  | 54     |
-| SEO             | 100    |
+| Performance | Accessibility | Best Practices | SEO |
+|-------------|--------------|---------------|-----|
+| 61          | 77           | 54            | 100 |
 
 ---
 
 #### 📱 Mobile Scores
 
-| Category        | Score |
-|----------------|--------|
-| Performance     | 26     |
-| Accessibility   | 71     |
-| Best Practices  | 54     |
-| SEO             | 100    |
+| Performance | Accessibility | Best Practices | SEO |
+|-------------|--------------|---------------|-----|
+| 26          | 71           | 54            | 100 |
