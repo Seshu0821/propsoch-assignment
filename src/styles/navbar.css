@@ -1,4 +1,3 @@
-/* TOP BAR */
 .topbar {
   background: #ff6d33;
   color: white;
@@ -7,7 +6,6 @@
   font-size: 14px;
 }
 
-/* MAIN NAV */
 .navbar {
   background: #ffffff;
   border-bottom: 1px solid #e9e9e9;
@@ -24,7 +22,6 @@
   height: 70px;
 }
 
-/* LOGO */
 .logo-link {
   display: flex;
   align-items: center;
@@ -34,7 +31,6 @@
   width: 130px;
 }
 
-/* MENU */
 .menu {
   display: flex;
   gap: 30px;
@@ -46,14 +42,12 @@
   color: #ff6d33;
 }
 
-/* RIGHT SIDE */
 .nav-actions {
   display: flex;
   align-items: center;
   gap: 15px;
 }
 
-/* ICON BUTTON */
 .icon-btn {
   width: 36px;
   height: 36px;
@@ -75,7 +69,6 @@
   background: #f5f5f5;
 }
 
-/* CTA BUTTON */
 .cta-btn {
   background: #ff6d33;
   color: white;
@@ -87,19 +80,19 @@
 }
 
 .menu a {
-  text-decoration: none; /* remove underline */
-  color: #000; /* make text black */
+  text-decoration: none;
+  color: #000;
   font-weight: 500;
 }
 
 .menu a:hover {
-  color: #ff6d33; /* optional hover color */
+  color: #ff6d33;
 }
+
 .cta-btn:hover {
   background: #e85c22;
 }
 
-/* RESPONSIVE */
 @media (max-width: 1024px) {
   .menu {
     display: none;
