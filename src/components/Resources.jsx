@@ -17,7 +17,7 @@ class Resources extends Component {
     return (
       <section className="resources-section">
         <div className="container">
-          {/* TOP HEADING */}
+          
           <p className="small-tag">
             Join an exclusive club of empowered homebuyers
           </p>
@@ -28,7 +28,7 @@ class Resources extends Component {
             hacks & resources
           </h2>
 
-          {/* 3 CARDS */}
+        
           <div className="resources-grid">
             {this.renderCard(
               "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
@@ -55,3 +55,4 @@ class Resources extends Component {
 }
 
 export default Resources;
+
