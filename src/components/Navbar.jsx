@@ -8,14 +8,12 @@ class Navbar extends Component {
   render() {
     return (
       <>
-        {/* Top Bar */}
         <div className="topbar">
           Check any property's fair price & negotiate confidently.
         </div>
 
         <nav className="navbar">
           <div className="container nav-inner">
-            {/* Logo */}
             <a href="/" className="logo-link">
               <svg viewBox="0 0 463 107" className="logo-svg">
                 <path
@@ -29,7 +27,7 @@ class Navbar extends Component {
               </svg>
             </a>
 
-            {/* Menu */}
+
             <div className="menu">
               <a href="#">Properties ▾</a>
               <a href="#">Services ▾</a>
@@ -37,7 +35,7 @@ class Navbar extends Component {
               <a href="#">Company ▾</a>
             </div>
 
-            {/* Right Side Actions */}
+
             <div className="nav-actions">
               <button className="icon-btn">
                 <FaSearch />
@@ -61,3 +59,4 @@ class Navbar extends Component {
 }
 
 export default Navbar;
+
