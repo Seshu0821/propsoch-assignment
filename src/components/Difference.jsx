@@ -13,7 +13,7 @@ class Difference extends Component {
     return (
       <section className="difference-section">
         <div className="container">
-          {/* Heading */}
+
           <div className="diff-header">
             <div>
               <p className="orange">What makes us different?</p>
@@ -23,7 +23,7 @@ class Difference extends Component {
               </h2>
             </div>
 
-            {/* Toggle */}
+
             <div className="diff-toggle">
               <span>Compare our services with</span>
               <div className="toggle-buttons">
@@ -44,7 +44,7 @@ class Difference extends Component {
             </div>
           </div>
 
-          {/* TABLE */}
+
           {tab === "portal" ? (
             <table className="diff-table">
               <thead>
@@ -178,3 +178,4 @@ class Difference extends Component {
 }
 
 export default Difference;
+
