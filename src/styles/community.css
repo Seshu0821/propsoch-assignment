@@ -1,0 +1,75 @@
+.community-section {
+  padding: 20px 0;
+}
+
+.community-box {
+  text-align: center;
+  background: linear-gradient(135deg, #fff4ef, #ffe9df);
+  padding: 50px 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+}
+
+.community-tag {
+  color: #ff6d33;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.community-desc {
+  max-width: 600px;
+  margin: 20px auto;
+  color: #666;
+}
+
+./* WhatsApp buttons */
+.whatsapp-btn,
+.whatsapp-btn-outline {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.nn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.whatsapp-btn svg {
+  font-size: 18px;
+}
+
+.whatsapp-btn-outline svg {
+  font-size: 18px;
+}
+
+/* Improve community spacing */
+.community-card h2 {
+  margin: 8px 0;
+}
+
+.community-card p {
+  max-width: 600px;
+  margin: auto;
+}
+
+.community-buttons {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn-outline {
+  background: white;
+  border: 2px solid #ff6d33;
+  color: #ff6d33;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}

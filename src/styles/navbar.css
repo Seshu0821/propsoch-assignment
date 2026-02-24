@@ -1,0 +1,113 @@
+/* TOP BAR */
+.topbar {
+  background: #ff6d33;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  font-size: 14px;
+}
+
+/* MAIN NAV */
+.navbar {
+  background: #ffffff;
+  border-bottom: 1px solid #e9e9e9;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04), 0 8px 24px rgba(0, 0, 0, 0.06);
+}
+
+.nav-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+
+/* LOGO */
+.logo-link {
+  display: flex;
+  align-items: center;
+}
+
+.logo-svg {
+  width: 130px;
+}
+
+/* MENU */
+.menu {
+  display: flex;
+  gap: 30px;
+  font-weight: 500;
+  color: #444;
+}
+
+.menu a:hover {
+  color: #ff6d33;
+}
+
+/* RIGHT SIDE */
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* ICON BUTTON */
+.icon-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  border: 1px solid #eee;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.icon-btn svg {
+  width: 18px;
+  height: 18px;
+}
+
+.icon-btn:hover {
+  background: #f5f5f5;
+}
+
+/* CTA BUTTON */
+.cta-btn {
+  background: #ff6d33;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.menu a {
+  text-decoration: none; /* remove underline */
+  color: #000; /* make text black */
+  font-weight: 500;
+}
+
+.menu a:hover {
+  color: #ff6d33; /* optional hover color */
+}
+.cta-btn:hover {
+  background: #e85c22;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1024px) {
+  .menu {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .wishlist {
+    display: none;
+  }
+}

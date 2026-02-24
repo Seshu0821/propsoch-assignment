@@ -1,0 +1,95 @@
+.difference-section {
+  padding: 80px 20px;
+  background: #fff;
+}
+
+.diff-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.ts {
+  font-size: 12px;
+}
+
+.ss {
+  color: #888;
+}
+
+.orange {
+  color: #ff6d33;
+  font-weight: 600;
+}
+
+.diff-header h2 {
+  max-width: 600px;
+  font-size: 32px;
+}
+
+/* Toggle */
+.diff-toggle span {
+  color: #888;
+  font-size: 14px;
+}
+
+.toggle-buttons {
+  display: flex;
+  background: #f5f5f5;
+  border-radius: 12px;
+  padding: 5px;
+  margin-top: 8px;
+}
+
+.toggle-buttons button {
+  border: none;
+  padding: 10px 20px;
+  background: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.toggle-buttons .active {
+  background: white;
+  color: #ff6d33;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* TABLE */
+.diff-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.diff-table th,
+.diff-table td {
+  padding: 18px;
+  border: 1px solid #eee;
+  text-align: left;
+}
+
+.diff-table th {
+  background: #fafafa;
+}
+
+.highlight {
+  background: #fff3ee;
+  font-weight: 600;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .diff-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .diff-header h2 {
+    font-size: 24px;
+  }
+}
