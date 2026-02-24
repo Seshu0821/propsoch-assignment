@@ -7,7 +7,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   gap: 40px;
   margin-bottom: 40px;
 }
@@ -30,7 +29,6 @@
   font-size: 32px;
 }
 
-/* Toggle */
 .diff-toggle span {
   color: #888;
   font-size: 14px;
@@ -58,7 +56,6 @@
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* TABLE */
 .diff-table {
   width: 100%;
   border-collapse: collapse;
@@ -82,7 +79,6 @@
   font-weight: 600;
 }
 
-/* MOBILE */
 @media (max-width: 768px) {
   .diff-header {
     flex-direction: column;
