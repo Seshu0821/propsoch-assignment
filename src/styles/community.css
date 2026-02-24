@@ -22,7 +22,6 @@
   color: #666;
 }
 
-./* WhatsApp buttons */
 .whatsapp-btn,
 .whatsapp-btn-outline {
   display: flex;
@@ -46,7 +45,6 @@
   font-size: 18px;
 }
 
-/* Improve community spacing */
 .community-card h2 {
   margin: 8px 0;
 }
